@@ -78,9 +78,9 @@ const SkateMap = ({ spots, onSelectSpot, onNewSpotLocation }) => {
         zoomControl={false}
       >
         <TileLayer
-          attribution='&copy; OpenStreetMap contributors &copy; CARTO'
-          url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
-        />
+  attribution='&copy; OpenStreetMap contributors &copy; CARTO'
+  url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
+/>
 
         {/* User location marker */}
         <Marker position={center}>
